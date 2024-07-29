@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548786;
+    text-align: center;
+    margin-top: 45px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1.5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 70px;
+    color:#b0413e; 
+}
+#reset-btn{
+    width: 7.25rem;
+    padding: 0.75rem;
+    border-radius: 0.50rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    border: none;
+    cursor: pointer;
+}
+#new-btn{
+    width: 7.25rem;
+    height: 47px;
+    border-radius: 0.50rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    border: none;
+    cursor: pointer;
+}
+#msg{
+    font-size: 2rem;
+    color: white;
+}
+.buttons{
+    margin-top: 1rem;
+}
+.hide{
+    display: none;
+}
+.x-color {
+    color: blue; /* Replace with your desired color */
+}
